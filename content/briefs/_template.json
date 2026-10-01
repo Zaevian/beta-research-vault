@@ -1,0 +1,60 @@
+{
+  "slug": "example-brief",
+  "title": "Example briefing title",
+  "date": "2026-01-15",
+  "hook": "One sentence that makes a person open the card.",
+  "tags": ["example"],
+  "accent": "資料",
+  "location": {
+    "name": "Place name",
+    "address": "123 Example St",
+    "locality": "Tallahassee",
+    "region": "FL",
+    "postalCode": "32301",
+    "lat": 30.4383,
+    "lng": -84.2807,
+    "note": "Say what this pin is, and what it is not."
+  },
+  "narrationScript": "Write this so it can be read aloud. Use short sentences. Spell out abbreviations a voice might mangle.\n\nSecond paragraph. Blank line between paragraphs.",
+  "timeline": [
+    {
+      "date": "January 2026",
+      "title": "What happened",
+      "detail": "One or two sourced sentences."
+    }
+  ],
+  "owners": [
+    {
+      "name": "Reported party",
+      "role": "Reported role, not a title opinion",
+      "period": "Year or range",
+      "kind": "reported",
+      "note": "Cite the outlet in the note. Use kind tenant or contested when the record is not a clean ownership claim."
+    }
+  ],
+  "ghostTownScore": 40,
+  "ghostTownLabel": "Mixed street",
+  "ghostTownNote": "Say why the score is not 0 and not 100. Higher means more ghost. This number is editorial.",
+  "chartData": {
+    "title": "Chart title",
+    "unit": "count",
+    "note": "Say what the numbers count, and what they do not count.",
+    "points": [
+      { "label": "2024", "value": 2, "note": "What this bar means." },
+      { "label": "2025", "value": 1, "note": "What changed." }
+    ]
+  },
+  "sources": [
+    {
+      "label": "Outlet, year, and headline.",
+      "url": "https://example.com/story",
+      "note": "Which claim this source supports. Drop the url field if you cannot verify the link, and keep the claim conservative."
+    }
+  ],
+  "sections": [
+    {
+      "heading": "What happened",
+      "body": "First paragraph.\n\nSecond paragraph. Separate paragraphs with a blank line."
+    }
+  ]
+}
