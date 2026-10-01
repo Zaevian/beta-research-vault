@@ -1,0 +1,275 @@
+{
+  "slug": "music-alley",
+  "title": "Music Alley, Centre of Tallahassee",
+  "date": "2024-06-16",
+  "hook": "A North Monroe street built for music and a food hall, then stalled after a death, an office pivot, and a foreclosure.",
+  "tags": ["Tallahassee", "North Monroe", "foreclosure"],
+  "accent": "音楽路地",
+  "location": {
+    "name": "Centre of Tallahassee",
+    "address": "2415 N Monroe St",
+    "locality": "Tallahassee",
+    "region": "FL",
+    "postalCode": "32303",
+    "lat": 30.4757,
+    "lng": -84.2903,
+    "note": "Inside the Centre of Tallahassee, on North Monroe Street near John Knox Road. Not downtown. Not Gallie Alley, and not the Gaines Street art alley. The pin marks the published street address, not a surveyed parcel line."
+  },
+  "narrationScript": "This is a Beta research briefing on Music Alley at the Centre of Tallahassee, 2415 North Monroe Street. Music Alley is not downtown. It is not Gallie Alley, and it is not the Gaines Street art alley.\n\nAround 2015, developers turned an old mall breezeway into a cobblestone street aimed at a covered pavilion. Dreamland Bar-B-Que and the Urban Food Market food hall followed in 2016.\n\nIn May 2017, Blackwater Resources president Alex Baker died. He was 63. The next year, reporting described a turn away from entertainment and toward office leases for state agencies. Those agencies are tenants. They are not the owners.\n\nIn March 2019, Urban Food Market closed during construction and said it would return. It did not. In December 2023, its fixtures and equipment were scheduled for auction.\n\nOn August 22, 2023, a foreclosure auction sold the property to A.C.R.C. T.F.L. Owner L.L.C. for 12,100 dollars. The Tallahassee Democrat reported a loan of about 106 million dollars from A.C.R.C. Lender W L.L.C., and a judgment of about 83.7 million dollars. WFSU reported the same buyer and the same auction price.\n\nIn June 2024, Dreamland closed. The sources cited here do not describe a public reboot of Music Alley. The ghost town meter on this page is an editorial reading of that alley. It is not a claim that the whole property is vacant, and it is not a legal vacancy rate.",
+  "timeline": [
+    {
+      "date": "October 2013",
+      "title": "Blackwater reported in control",
+      "detail": "A 2015 Democrat story said Blackwater took the old Tallahassee Mall in October 2013 through Tallahassee Retail Ventures. A 2016 update repeated that month. WFSU later reported a 2014 sale. The year is disputed in the record."
+    },
+    {
+      "date": "Summer 2015",
+      "title": "Music Alley is about to open",
+      "detail": "On July 29, 2015, the Democrat said the cobblestone alley, a former breezeway, was about two weeks from opening, and that the amphitheater roof was already up."
+    },
+    {
+      "date": "July 2016",
+      "title": "Dreamland is on the alley",
+      "detail": "A July 5, 2016 Democrat update called Dreamland Bar-B-Que newly open on Music Alley, and said Pavilion finishing work was close. It also dated the food hall to July 15."
+    },
+    {
+      "date": "October 2, 2016",
+      "title": "Food hall, second opening date",
+      "detail": "A December 7, 2016 Democrat review said Urban Food Market had opened October 2 at 2415 N. Monroe Street. That date disagrees with the July 15 line. The hall was open by the review either way."
+    },
+    {
+      "date": "May 14, 2017",
+      "title": "Alex Baker dies",
+      "detail": "The Democrat reported on May 16, 2017, that Blackwater president Alex Baker died at home on Mother's Day. He was 63. The mall was described as his project."
+    },
+    {
+      "date": "March 16, 2018",
+      "title": "The office pivot",
+      "detail": "The Democrat reported a turn from entertainment toward state office leases, a cut in ties with Pavilion promoters, and a majority owner printed as Lubert-Alder Partners LP."
+    },
+    {
+      "date": "November 2018",
+      "title": "Office construction starts",
+      "detail": "BL Harbert's project page says phased construction for state agency offices began in November 2018, after preconstruction talks that July. The builder expected to finish in March 2021."
+    },
+    {
+      "date": "February 2019",
+      "title": "Loan reported at about $106 million",
+      "detail": "The August 22, 2023 Democrat foreclosure story reported that ACRC Lender W LLC approved a loan of about $106 million in February 2019 for Tallahassee Retail Ventures."
+    },
+    {
+      "date": "March 2019",
+      "title": "Urban Food Market closes",
+      "detail": "By the March 12, 2019 Democrat story, a sign called the closure temporary. The chef hoped to return, maybe in October. The same story said some days the cobblestones were a ghost town."
+    },
+    {
+      "date": "August 22, 2023",
+      "title": "Foreclosure auction",
+      "detail": "WFSU and the Democrat reported a winning bid of $12,100 by ACRC TFL Owner LLC, an assignee of ACRC Lender W LLC. WCTV used a shorter lender name the next day."
+    },
+    {
+      "date": "December 18, 2023",
+      "title": "Food hall fixtures head to auction",
+      "detail": "A December 12, 2023 release said Urban Food Market's assets would be auctioned on December 18, and that plans to reopen never materialized."
+    },
+    {
+      "date": "June 16, 2024",
+      "title": "Dreamland closes",
+      "detail": "On June 14, 2024, the Democrat and WCTV reported Dreamland would close that Sunday, after a final Thursday jam. The weekly blues jam was reported to move to The Sound Bar."
+    }
+  ],
+  "owners": [
+    {
+      "name": "Tallahassee Retail Ventures LLC",
+      "role": "Reported purchasing entity and foreclosure defendant",
+      "period": "2013 or 2014, through the 2023 case",
+      "kind": "reported",
+      "note": "A March 6, 2015 Democrat story said property records showed this LLC, described then as a Blackwater subsidiary, took the deed in October 2013 for a reported $8.5 million, and that the full price could have been higher. WFSU on August 21, 2023, reported a 2014 sale to Tallahassee Retail Ventures, operating out of Blackwater's offices. The 2023 foreclosure story named this LLC as the owner the lender sued."
+    },
+    {
+      "name": "Blackwater Resources and Alex Baker",
+      "role": "Developer. Reported at different times as owner, part owner, and outside manager.",
+      "period": "Control reported from 2013. Baker died May 2017.",
+      "kind": "contested",
+      "note": "Baker died at home on Mother's Day 2017. He was 63. The March 16, 2018 Democrat story called Blackwater a part owner and the manager. On August 23, 2023, WCTV quoted a Blackwater spokesperson saying the firm was a third-party manager hired by the owner, and was not the owner. Those accounts conflict. This row does not pick one."
+    },
+    {
+      "name": "Lubert-Adler, printed as Lubert-Alder Partners LP",
+      "role": "Reported majority owner in 2018",
+      "period": "Named in March 2018 coverage",
+      "kind": "reported",
+      "note": "The March 16, 2018 Democrat story called Lubert-Alder Partners LP, based in Atlanta in that article, investors and the majority owners. This page uses Lubert-Adler for that reported investor. It does not confirm the spelling from outside the article, and it does not describe any later stake."
+    },
+    {
+      "name": "ACRC Lender W LLC",
+      "role": "Reported lender",
+      "period": "Loan reported February 2019. Suit in 2023.",
+      "kind": "reported",
+      "note": "The August 22, 2023 Democrat foreclosure story reported a loan of about $106 million approved in February 2019, and a judgment of about $83.7 million. WFSU the same day described a filed value of about $84 million. This row is the lender. It is not a claim that the lender held title before the auction."
+    },
+    {
+      "name": "ACRC TFL Owner LLC",
+      "role": "Reported foreclosure auction winner",
+      "period": "August 22, 2023",
+      "kind": "reported",
+      "note": "WFSU and the Democrat reported this LLC, an assignee of ACRC Lender W LLC, as the winning bidder at $12,100. WCTV the next day used the shorter name ACRC Lender LLC. This page follows the Democrat and WFSU on the buyer name. No later transfer is described in the sources cited here."
+    },
+    {
+      "name": "Florida state agencies",
+      "role": "Tenants, not owners",
+      "period": "Leases reported from 2018",
+      "kind": "tenant",
+      "note": "The Department of Health, the Department of Children and Families, and the Department of State Division of Corporations were reported as office tenants. BL Harbert describes the construction as a conversion for those agencies. Foreclosure coverage still treated them as occupants. They are not described as the buyer."
+    }
+  ],
+  "ghostTownScore": 84,
+  "ghostTownLabel": "Stalled alley",
+  "ghostTownNote": "84 is an editorial reading of Music Alley through the June 2024 Dreamland closure. It is not a storefront census and not a site visit. In this record the food hall closed in 2019 and its fixtures were later scheduled for auction, Dreamland closed in 2024, and the Pavilion concert push was reported as cut in the 2018 office pivot. These sources do not describe a reboot. The score stays under 100 because the wider Centre was not described as vacant land. State offices and some stores, including AMC, Belk, and Barnes & Noble at various points, were still in the record.",
+  "chartData": {
+    "title": "Named alley venues still reported open",
+    "unit": "venues",
+    "note": "The bars count only Urban Food Market and Dreamland. The Pavilion is left out because the cited stories do not agree on a last show date. A higher bar means more of those two venues were still reported open. This is not mall-wide occupancy.",
+    "points": [
+      {
+        "label": "2016",
+        "value": 2,
+        "note": "Dreamland and Urban Food Market are both in the 2016 record."
+      },
+      {
+        "label": "2018",
+        "value": 2,
+        "note": "Office-pivot year. Both venues still reported. Pavilion promoters cut."
+      },
+      {
+        "label": "2019",
+        "value": 1,
+        "note": "The food hall closes in March. Dreamland stays."
+      },
+      {
+        "label": "2023",
+        "value": 1,
+        "note": "Foreclosure year. Dreamland still open. Food hall assets head to auction in December."
+      },
+      {
+        "label": "2024",
+        "value": 0,
+        "note": "Dreamland closes in June. The count of those two venues drops to zero."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "Tallahassee Democrat, March 6, 2015. Tallahassee Mall: Future of a shopping experience.",
+      "url": "https://www.tallahassee.com/story/news/2015/03/06/future-shopping-experience/24458457/",
+      "note": "Reports Blackwater taking control in October 2013, and a deed price of $8.5 million, with a higher overall price left possible."
+    },
+    {
+      "label": "Tallahassee Democrat, July 29, 2015. Progress continues at Centre of Tallahassee mall.",
+      "url": "https://www.tallahassee.com/story/money/2015/07/29/progress-continues-centre-tallahassee-mall/30853047/",
+      "note": "Music Alley about two weeks from opening. Amphitheater roof up. Baker's seat figure in this story is about 6,500."
+    },
+    {
+      "label": "Tallahassee Democrat, July 5, 2016. Phase II nears for Centre of Tallahassee mall.",
+      "url": "https://www.tallahassee.com/story/money/2016/07/05/phase-ii-nears-centre-tallahassee-mall/86530060/",
+      "note": "Dreamland newly open on Music Alley. Food hall dated July 15 in this update. Pavilion finishing. Acquisition dated October 2013."
+    },
+    {
+      "label": "Tallahassee Democrat, December 7, 2016. Get passport to Italian fare at Urban Food.",
+      "url": "https://www.tallahassee.com/story/life/food/2016/12/07/get-passport-italian-fare-urban-food/95088006/",
+      "note": "Reviews the food hall as open since October 2, 2016, and prints the address 2415 N. Monroe St."
+    },
+    {
+      "label": "Tallahassee Democrat, May 16, 2017. Centre of Tallahassee mall developer dies.",
+      "url": "https://www.tallahassee.com/story/news/2017/05/16/centre-tallahassee-mall-developer-dies/101747676/",
+      "note": "Alex Baker died on Mother's Day 2017. He was 63."
+    },
+    {
+      "label": "Tallahassee Democrat, March 16, 2018. Going to the office: Centre of Tallahassee mall shifts focus.",
+      "url": "https://www.tallahassee.com/story/news/money/2018/03/16/going-office-centre-tallahassee-mall-shifts-focus/372824002/",
+      "note": "Office pivot. Majority owner printed as Lubert-Alder Partners LP. Blackwater described as part owner and manager. Ties cut with Pavilion promoters."
+    },
+    {
+      "label": "Tallahassee Democrat, June 29, 2018. DCF, Department of State may move to Centre of Tallahassee mall.",
+      "url": "https://www.tallahassee.com/story/news/money/2018/06/29/dcf-department-state-may-move-centre-tallahassee-mall/743137002/",
+      "note": "Further state-office talks. Describes Baker's retail and entertainment vision as ending with his death."
+    },
+    {
+      "label": "Modern Cities, April 2018. Revamping the mall: The Centre of Tallahassee.",
+      "url": "https://www.moderncities.com/article/2018-apr-revamping-the-mall-the-centre-of-tallahassee",
+      "note": "Describes Music Alley as the old esplanade turned into an outdoor street, and prints a 10,000-seat amphitheater figure."
+    },
+    {
+      "label": "BL Harbert project page. Centre of Tallahassee.",
+      "url": "https://blharbert.com/projects/centre-of-tallahassee/",
+      "note": "Office conversion for three Florida state agencies. Phased construction reported from November 2018, with completion expected in March 2021."
+    },
+    {
+      "label": "BL Harbert, news release. Transform mall into state government office space.",
+      "url": "https://blharbert.com/news/bl-harbert-international-to-transform-mall-into-state-government-office-space/",
+      "note": "Names the Department of Health, the Division of Corporations, and the Department of Children and Families as future tenants."
+    },
+    {
+      "label": "Tallahassee Democrat, March 12, 2019. Urban Food Market temporarily closes at the Centre of Tallahassee.",
+      "url": "https://www.tallahassee.com/story/news/money/2019/03/12/urban-food-market-temporarily-closes-centre-tallahassee/3139337002/",
+      "note": "Temporary closure, a hoped-for return, the ghost-town line about the cobblestones, and three signed state leases."
+    },
+    {
+      "label": "Tallahassee Democrat, August 22, 2023. Ownership of Centre of Tallahassee mall returns to lender in foreclosure auction.",
+      "url": "https://www.tallahassee.com/story/money/2023/08/22/centre-of-tallahassee-returns-to-lender-in-foreclosure-auction/70650076007/",
+      "note": "Suit by ACRC Lender W LLC against Tallahassee Retail Ventures LLC. Loan reported at about $106 million in February 2019. Judgment about $83.7 million. Winning bid $12,100."
+    },
+    {
+      "label": "WFSU, August 22, 2023. The Centre of Tallahassee gets sold to its lender in a foreclosure auction.",
+      "url": "https://news.wfsu.org/wfsu-local-news/2023-08-22/the-centre-of-tallahassee-gets-sold-to-its-lender-in-a-foreclosure-auction",
+      "note": "Buyer reported as ACRC TFL Owner LLC, an assignee of ACRC Lender W LLC, for $12,100. Filed value about $84 million."
+    },
+    {
+      "label": "WFSU, August 21, 2023. The Centre of Tallahassee mall is slated to be sold in a foreclosure auction.",
+      "url": "https://news.wfsu.org/wfsu-local-news/2023-08-21/the-centre-of-tallahassee-mall-is-slated-to-be-sold-in-a-foreclosure-auction",
+      "note": "Reports a 2014 sale to Tallahassee Retail Ventures. Names OliverSperry among the defendants. That naming is not treated here as ownership."
+    },
+    {
+      "label": "WCTV, August 23, 2023. Centre of Tallahassee auctioned off, sold to lender.",
+      "url": "https://www.wctv.tv/2023/08/23/centre-tallahassee-auctioned-off-sold-lender/",
+      "note": "Uses the shorter high-bidder name ACRC Lender LLC. Quotes Blackwater saying it was a hired manager, not the owner."
+    },
+    {
+      "label": "PRWeb, December 12, 2023. Assets of Urban Food Market in Tallahassee, Florida, to be auctioned.",
+      "url": "https://www.prweb.com/releases/assets-of-urban-food-market-in-tallahassee-florida-to-be-auctioned-302011172.html",
+      "note": "Auction date December 18, 2023. Says the March 2019 closure was not followed by a reopening. This is the fixtures-and-equipment liquidation in this briefing, limited to the food hall."
+    },
+    {
+      "label": "Tallahassee Democrat, June 14, 2024. Dreamland Bar-B-Que closing Centre of Tallahassee location.",
+      "url": "https://www.tallahassee.com/story/entertainment/restaurants/2024/06/14/dreamland-bar-b-que-closing-centre-of-tallahassee-location/74083779007/",
+      "note": "Closure that Sunday after the final Thursday jam."
+    },
+    {
+      "label": "WCTV, June 14, 2024. Final jam session at Dreamland Bar-B-Que.",
+      "url": "https://www.wctv.tv/2024/06/14/watch-local-blues-musicians-play-final-jam-session-dreamland-bar-b-que-restaurant-prepares-close-down/",
+      "note": "Restaurant set to close Sunday. The jam was reported to move to The Sound Bar."
+    },
+    {
+      "label": "Tallahassee Democrat, July 22, 2024. Closing time: 16 Tallahassee restaurants that shut down this year.",
+      "url": "https://www.tallahassee.com/story/news/local/2024/07/22/closing-time-16-tallahassee-restaurants-that-shut-down-this-year/74385415007/",
+      "note": "Places the June 2024 Dreamland exit in the failed indoor-outdoor entertainment story."
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Where Music Alley actually is",
+      "body": "Music Alley is the outdoor cobblestone street inside the Centre of Tallahassee, 2415 North Monroe Street. Locals still know the property as the old Tallahassee Mall. It sits on the north side of the city, on a large retail site, not in downtown Tallahassee.\n\nThat distinction is the whole point of the name. Gallie Alley and the Gaines Street art alley are different places. This briefing is only about the Music Alley cut through the old mall during the Blackwater redevelopment.\n\nA December 2016 Democrat review printed the food hall address as 2415 N. Monroe Street. Later foreclosure stories still place the property on North Monroe. The map on this page pins that published address."
+    },
+    {
+      "heading": "What they built",
+      "body": "By Christmas 2015, the pitch was a stroll: shops along Music Alley, leading to a covered amphitheater. A July 29, 2015 Tallahassee Democrat report said the alley, a former enclosed breezeway, was about two weeks from opening, and that the amphitheater roof was already up. Baker described a venue of about 6,500 seats in that story. A July 2016 Democrat update and an April 2018 Modern Cities piece printed figures around 10,000 seats. This briefing keeps both numbers as reported and does not pick a winner.\n\nDreamland Bar-B-Que was described as newly open on Music Alley in that July 2016 update. Urban Food Market, an Italian food hall, was given two opening dates in Democrat coverage: July 15, 2016, in the construction update, and October 2, 2016, in a December review. The hall was real either way. It was one of the first big reasons to walk the alley.\n\nThe Pavilion, often spelled Pavillion in the Democrat, was the concert piece of the same idea. Modern Cities, in April 2018, described Music Alley as the old mall esplanade turned into an outdoor street, with the food hall as an anchor beside the amphitheater."
+    },
+    {
+      "heading": "Why the alley stalled",
+      "body": "Alex Baker, president of Blackwater Resources, died at home on Mother's Day 2017. He was 63. The Democrat reported the death on May 16, 2017, and called the mall his project. A June 2018 follow-up said Baker's vision of a retail and entertainment destination ended with his death, while the property turned toward state office leases.\n\nOn March 16, 2018, the Democrat reported the pivot in full. Investors were steering away from entertainment and toward leasing office space to state government. The same story said the mall had severed ties with companies promoting the Pavilion. It also named Lubert-Alder Partners LP as majority owners, and Blackwater as part owner and manager. The printed spelling is Lubert-Alder. See the scoreboard before treating that line as settled title.\n\nState leases are tenancy, not title. By March 2019 the Democrat listed three signed office leases: the Department of Children and Families, the Department of Health, and the Department of State, Division of Corporations. BL Harbert's project page says Blackwater hired the firm in 2018 to convert mall space into offices for those agencies, with phased construction starting in November 2018. The builder expected to finish in March 2021. The agencies remained tenants in the foreclosure coverage. They were not described as the buyer.\n\nUrban Food Market closed in March 2019. A sign was up by the March 12 Democrat story. Chef Mirko Di Giacomantonio called it temporary and hoped for a later reopening, maybe October. The same story said some days the cobblestone roads in Music Alley were a ghost town, and that the open-air shopping vision had not materialized. The reopening did not happen. On December 12, 2023, a release carried by PRWeb said the food hall's assets would be auctioned on December 18, and that plans to reopen never materialized. That is the liquidation of the food hall's fixtures and equipment in this record. It is not a claim that every chair in the mall was sold.\n\nThe loan and the auction sit on top of that retail failure. The August 22, 2023 Democrat foreclosure story reported that ACRC Lender W LLC had sued Tallahassee Retail Ventures LLC and others, that a loan of about $106 million was approved in February 2019, and that the judgment was about $83.7 million. WFSU, the same day, reported the online auction price: $12,100, to ACRC TFL Owner LLC, an assignee of ACRC Lender W LLC. WFSU described the lender's filed value at about $84 million. WCTV's August 23, 2023 report named the high bidder more briefly as ACRC Lender LLC. Where those names conflict, this briefing follows the Democrat and WFSU spelling of the buyer, and treats the WCTV name as a shorter label in a conflicting report.\n\nDreamland lasted longer than the food hall. It closed in June 2024. The Democrat on June 14, 2024, and WCTV the same day, reported that the restaurant would close that Sunday after a final Thursday jam. Sunday was June 16. The weekly blues jam was reported to move to The Sound Bar on Tharpe Street. The Democrat's July 2024 closure list tied the shutdown to the end of the dream that the mall would be a thriving indoor-outdoor entertainment district.\n\nNo source cited here describes a public reboot of Music Alley retail after that."
+    },
+    {
+      "heading": "What this page will not claim",
+      "body": "Do not read this page as a title opinion. Early Democrat reporting said Blackwater took control in October 2013 through Tallahassee Retail Ventures, described then as a subsidiary. WFSU in 2023 said the 2014 sale was to Tallahassee Retail Ventures, operating out of Blackwater's offices. The 2018 Democrat story called Lubert-Alder the majority owner and Blackwater a part owner and manager. In August 2023, WCTV quoted a Blackwater spokesperson saying Blackwater was a third-party manager and leasing company hired by the owner, and was not the owner.\n\nThose accounts are not the same. The scoreboard keeps the conflict visible.\n\nWFSU's August 21, 2023 preview also named the renovation company OliverSperry among the defendants. A defendant is not automatically an owner. OliverSperry is not on the scoreboard.\n\nThis page also does not claim the entire Centre of Tallahassee is empty. Foreclosure and closure stories still mentioned other tenants, including state offices and stores such as AMC, Belk, and Barnes & Noble at various points. A charter school, the School of Arts and Sciences, was reported on the property in the construction years. None of that is title. The ghost town meter scores Music Alley vitality in the cited record. It is an editorial reading, not a vacancy study and not a site visit."
+    }
+  ]
+}
