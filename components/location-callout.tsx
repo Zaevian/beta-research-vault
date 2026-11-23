@@ -23,7 +23,7 @@ export function LocationCallout({
   directions.searchParams.set("query", addressLine);
 
   return (
-    <section className="dossier overflow-hidden rounded-3xl border border-white/10 bg-panel/85" aria-labelledby="location-heading">
+    <section className="dossier min-w-0 overflow-hidden rounded-3xl border border-white/10 bg-panel/85" aria-labelledby="location-heading">
       <div className="border-b border-white/10 p-5">
         {accent ? <p className="font-jp text-sm text-cyan">{accent}</p> : null}
         <h2 id="location-heading" className="mt-1 text-xl font-semibold text-ink">

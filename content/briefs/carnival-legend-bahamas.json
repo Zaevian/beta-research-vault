@@ -1,0 +1,534 @@
+{
+  "slug": "carnival-legend-bahamas",
+  "title": "Carnival Legend, 6 nights in the Bahamas",
+  "date": "2026-11-22",
+  "hook": "A tight-budget, free-fun plan for the December 13 to 19 sailing from Tampa, with a day-by-day strip, port tables, and a Nassau walking sketch.",
+  "tags": ["carnival", "bahamas", "legend", "budget"],
+  "accent": "資料",
+  "leadVisuals": true,
+  "location": {
+    "name": "Tampa Terminal 3",
+    "address": "815 Channelside Dr",
+    "locality": "Tampa",
+    "region": "FL",
+    "postalCode": "33602",
+    "lat": 27.9455,
+    "lng": -82.4442,
+    "note": "Embark pin for this sailing. OpenStreetMap places Port Tampa Bay Cruise Terminal 3 at 815 Channelside Drive. The port garage is across the street at 810 Channelside. The pin is that published address, not a surveyed parcel line."
+  },
+  "dayStrip": {
+    "kicker": "現在",
+    "title": "December 13 to 19, local times",
+    "note": "Sail From Tampa, citing Carnival, puts RelaxAway, Half Moon Cay on Tuesday and Celebration Key on Wednesday. CruiseDen swaps those two islands. Travel Weekly is also named for that swap in the source notes for this page. Nassau on Thursday matches. Confirm the order in the Carnival Hub app before you pack the port bag.",
+    "days": [
+      {
+        "weekday": "Sun",
+        "date": "Dec 13",
+        "title": "Tampa",
+        "detail": "Sails 3:30 PM from Terminal 3. Be aboard 60 minutes before, at 2:30 PM.",
+        "tone": "home"
+      },
+      {
+        "weekday": "Mon",
+        "date": "Dec 14",
+        "title": "At sea",
+        "detail": "Sea day. Dining room, buffet, and free water, lemonade, and tea.",
+        "tone": "sea"
+      },
+      {
+        "weekday": "Tue",
+        "date": "Dec 15",
+        "title": "RelaxAway",
+        "detail": "Half Moon Cay, 9 AM to 5 PM on the Sail From Tampa listing.",
+        "tone": "port",
+        "flag": "Check order"
+      },
+      {
+        "weekday": "Wed",
+        "date": "Dec 16",
+        "title": "Celebration Key",
+        "detail": "Grand Bahama, 8 AM to 4 PM on that same listing.",
+        "tone": "port",
+        "flag": "Check order"
+      },
+      {
+        "weekday": "Thu",
+        "date": "Dec 17",
+        "title": "Nassau",
+        "detail": "8 AM to 4 PM. This day matches in both listings.",
+        "tone": "port"
+      },
+      {
+        "weekday": "Fri",
+        "date": "Dec 18",
+        "title": "At sea",
+        "detail": "Sea day on the way back to Tampa.",
+        "tone": "sea"
+      },
+      {
+        "weekday": "Sat",
+        "date": "Dec 19",
+        "title": "Tampa",
+        "detail": "Arrives 8 AM. Walk off with your own bags.",
+        "tone": "home"
+      }
+    ]
+  },
+  "budgetStrip": {
+    "kicker": "記録",
+    "title": "Value Travel Bot",
+    "note": "An example disciplined budget, not a booked invoice. The parking bars are not the same length of stay: about $48 is 7 days, and about $126 is 6 nights.",
+    "items": [
+      {
+        "label": "Gratuities",
+        "value": "about $102",
+        "detail": "$17 per person per night for 6 nights in a standard stateroom. Billed to Sail and Sign."
+      },
+      {
+        "label": "All three ports",
+        "value": "$0 to $40",
+        "detail": "Doable in that range if the free plan holds. This is not a receipt."
+      },
+      {
+        "label": "Parking",
+        "value": "about $48 vs $126",
+        "detail": "717 Parking for 7 days, versus the port garage for 6 nights. Harbor Lot is listed at about $6 a day as another off-site option.",
+        "bars": [
+          {
+            "label": "717 Parking, 7 days",
+            "value": 48,
+            "display": "about $48"
+          },
+          {
+            "label": "Port garage, 6 nights",
+            "value": 126,
+            "display": "about $126"
+          }
+        ]
+      },
+      {
+        "label": "Drink package",
+        "value": "Skip it",
+        "detail": "It does not work at Celebration Key or at RelaxAway, Half Moon Cay."
+      }
+    ],
+    "rates": [
+      {
+        "where": "On the ship",
+        "figure": "about 20%",
+        "detail": "Service charge on drinks, drink packages, specialty dining, and spa. Carnival's gratuity page states 20% on beverages, specialty dining, and other for-pay food. Reporting places the move from 18% to 20% in December 2025. This is the ship rate."
+      },
+      {
+        "where": "At Celebration Key",
+        "figure": "18% plus 10% VAT",
+        "detail": "The Carnival Cruise Blog's figure for island purchases: an 18% service charge plus 10% Bahamian VAT. This is the island figure. It is not the ship's 20%."
+      }
+    ]
+  },
+  "chartData": {
+    "title": "Example disciplined spend",
+    "unit": "USD",
+    "rowHeading": "Bucket",
+    "note": "An example disciplined budget, not a booked invoice. The gratuity bar is $102. The port bar is drawn at $40, which is the top of a $0 to $40 range, and the label shows the whole range. The drinks bar is $0 because this plan skips the drink package and does not price any extra drinks. Parking is on the strip above, not in these bars.",
+    "points": [
+      {
+        "label": "Gratuities",
+        "value": 102,
+        "valueLabel": "$102",
+        "note": "6 nights at $17 per person per night in a standard stateroom."
+      },
+      {
+        "label": "Port spend",
+        "value": 40,
+        "valueLabel": "$0-40",
+        "note": "Bar height is the ceiling of the disciplined range. The floor is $0."
+      },
+      {
+        "label": "Drinks",
+        "value": 0,
+        "valueLabel": "$0",
+        "note": "Planned spend if no drinks are bought. Any drinks are extra and are not given a price here."
+      }
+    ]
+  },
+  "portTables": [
+    {
+      "title": "RelaxAway, Half Moon Cay",
+      "note": "Best free day if this is the Tuesday call. The ship docks at the new pier. Cruise Radio describes that pier as 1,005 feet, and The Points Guy describes a new dock large enough for two Carnival ships. Bring a ship towel. The drink package does not work on the island.",
+      "free": [
+        {
+          "item": "Beach, loungers, umbrellas",
+          "detail": "The beach day itself."
+        },
+        {
+          "item": "Tram",
+          "detail": "Hop on along the beach."
+        },
+        {
+          "item": "Barbecue lunch",
+          "detail": "Orchid Beach Grill or Hibiscus Beach Grill, about 11:30 to 1:30. Cruise Radio lists burgers, chicken, pulled pork, a nacho bar, and desserts."
+        },
+        {
+          "item": "Water, lemonade, tea",
+          "detail": "At the two food pavilions, per Cruise Radio."
+        }
+      ],
+      "paid": [
+        {
+          "item": "Sodas and alcohol",
+          "detail": "Charged to the shipboard account."
+        },
+        {
+          "item": "Lockers",
+          "detail": "$11.99 per day. Cruise Radio."
+        },
+        {
+          "item": "Snorkel gear",
+          "detail": "Starting at $21.99 a person on Carnival's shore excursion page."
+        },
+        {
+          "item": "Float mat",
+          "detail": "$21.99 on the Eat Sleep Cruise price list."
+        },
+        {
+          "item": "Nature walk or bike tour",
+          "detail": "$26.99 each on that same list."
+        },
+        {
+          "item": "Daybeds",
+          "detail": "From $149.99."
+        },
+        {
+          "item": "Cabanas",
+          "detail": "From $799.99, about $800."
+        }
+      ]
+    },
+    {
+      "title": "Celebration Key, Grand Bahama",
+      "note": "Cashless. Leave cash on the ship that day and set a Sail and Sign spending cap. Small bills are for Nassau only. Island purchases carry 18% plus 10% VAT in The Carnival Cruise Blog's account. That is not the ship rate. The drink package does not work here.",
+      "free": [
+        {
+          "item": "Mile-long beach, chairs, umbrellas",
+          "detail": "Chairs and umbrellas are first come, per the blog."
+        },
+        {
+          "item": "Two lagoons",
+          "detail": "Starfish Lagoon and Calypso Lagoon. The blog describes a large freshwater lagoon."
+        },
+        {
+          "item": "Sports courts and trams",
+          "detail": "Trams run from the ship to Paradise Plaza and out to the lagoons."
+        },
+        {
+          "item": "Live music at Paradise Plaza",
+          "detail": "A destination-guide summary also lists a Junkanoo parade there."
+        },
+        {
+          "item": "One Island Eats meal",
+          "detail": "One entree, fries, and a cookie at a walk-up spot. One swipe per card."
+        },
+        {
+          "item": "Water refill stations",
+          "detail": "The blog says refill stations are on the island. Bought water is still charged."
+        }
+      ],
+      "paid": [
+        {
+          "item": "Bought drinks, including water and soda",
+          "detail": "Plus the island 18% service charge and 10% Bahamian VAT."
+        },
+        {
+          "item": "Suncastle racing slides",
+          "detail": "May carry a small fee per ride. One guide lists the tower as free, and the blog describes a per-ride charge. Confirm on the island or in the Carnival Hub app."
+        },
+        {
+          "item": "Pearl Cove",
+          "detail": "$59.99 entry, or $109.99 with open bar, in guides that cite Carnival's destination prices. Skip it on this budget."
+        },
+        {
+          "item": "Cabanas and rentals",
+          "detail": "Charged. No price is printed here beyond Pearl Cove."
+        }
+      ]
+    },
+    {
+      "title": "Nassau",
+      "note": "The open port, where money can slip away. Stay in the tourist core. U.S. State Department Level 2, exercise increased caution, renewed July 28, 2026, mainly for crime.",
+      "free": [
+        {
+          "item": "Junkanoo Beach",
+          "detail": "About a 10 to 13 minute walk west of the pier. Crowded on cruise days."
+        },
+        {
+          "item": "Queen's Staircase",
+          "detail": "About a 13 minute uphill walk. The tourism board counts 64 steps after paving. Another account counts 65 still visible. The old name is the 66 Steps. Fort Fincastle at the top: view from outside while restoration continues."
+        }
+      ],
+      "paid": [
+        {
+          "item": "Junkanoo chair rental",
+          "detail": "About $15 in these notes."
+        },
+        {
+          "item": "#10 jitney to Cable Beach",
+          "detail": "About $1.50, cash only, exact change. About 6 AM to 6:30 PM. Passes Arawak Cay Fish Fry. Flag it near Bay Street and Frederick Street."
+        },
+        {
+          "item": "Taxi",
+          "detail": "Fixed zone fares. Agree the price first. A 2024 schedule lists $12 from Prince George Dock to downtown and $20 to Cable Beach. These notes also say about $9 for a short hop. Those figures do not match. No Uber."
+        },
+        {
+          "item": "Atlantis and ship tours",
+          "detail": "Skip. This plan treats them as the money pit."
+        }
+      ]
+    }
+  ],
+  "routeSketch": {
+    "kicker": "資料",
+    "title": "Nassau walking sketch",
+    "note": "This is a sketch, not a surveyed map and not an official jitney map. North is up. The top band is water. Distances are not to scale: Cable Beach is much farther west than the drawing shows, which is why it is a bus ride. Place order follows OpenStreetMap locations for Prince George Wharf, Junkanoo Beach, the Queen's Staircase, Arawak Cay, and Cable Beach. The number 10 line is the published downtown-to-Cable Beach route that passes the Fish Fry, not a traced road.",
+    "waterBand": true,
+    "stops": [
+      {
+        "id": "cable",
+        "label": "Cable Beach",
+        "detail": "Farther west along the coast. Take the number 10 jitney. Do not plan this as a walk from the pier.",
+        "x": 8,
+        "y": 30
+      },
+      {
+        "id": "arawak",
+        "label": "Arawak Cay Fish Fry",
+        "detail": "West of downtown. The number 10 passes the Fish Fry on the way toward Cable Beach.",
+        "x": 28,
+        "y": 32
+      },
+      {
+        "id": "junkanoo",
+        "label": "Junkanoo Beach",
+        "detail": "West of the pier along the water. About a 10 to 13 minute walk. Crowded on cruise days.",
+        "x": 50,
+        "y": 34
+      },
+      {
+        "id": "pier",
+        "label": "Cruise pier",
+        "detail": "Prince George Wharf. The ship docks here. Nassau is the walkable port day.",
+        "x": 72,
+        "y": 22
+      },
+      {
+        "id": "bay",
+        "label": "Bay Street flag stop",
+        "detail": "A short walk from the wharf. Real Journey Travels says to catch the number 10 near Frederick Street and Bay Street.",
+        "x": 66,
+        "y": 48
+      },
+      {
+        "id": "stairs",
+        "label": "Queen's Staircase",
+        "detail": "Inland and uphill from the pier, about 13 minutes. Fort Fincastle at the top is for looking at from outside while it is closed for restoration.",
+        "x": 84,
+        "y": 74
+      }
+    ],
+    "links": [
+      {
+        "from": "pier",
+        "to": "junkanoo",
+        "label": "Pier west to Junkanoo Beach, about 10 to 13 minutes.",
+        "kind": "walk"
+      },
+      {
+        "from": "pier",
+        "to": "stairs",
+        "label": "Pier inland and uphill to the Queen's Staircase, about 13 minutes.",
+        "kind": "walk"
+      },
+      {
+        "from": "pier",
+        "to": "bay",
+        "label": "Short walk from the pier to the Bay Street flag stop.",
+        "kind": "walk"
+      },
+      {
+        "from": "bay",
+        "to": "arawak",
+        "label": "Number 10 jitney west, passing Arawak Cay Fish Fry.",
+        "kind": "ride"
+      },
+      {
+        "from": "arawak",
+        "to": "cable",
+        "label": "The same number 10 continues toward Cable Beach.",
+        "kind": "ride"
+      }
+    ]
+  },
+  "figures": [
+    {
+      "src": "/briefs/carnival-legend-bahamas/queens-staircase.jpg",
+      "alt": "Limestone steps of the Queen's Staircase in Nassau, seen from the bottom in a 2009 photograph.",
+      "caption": "Queen's Staircase, Nassau. Photographed January 2, 2009, before the April 2024 restoration. Use it to recognize the gorge, not as a picture of the staircase today.",
+      "credit": "Photo by Jerrye and Roy Klotz, MD. Wikimedia Commons. The Commons description says the stair has 65 steps. The Nassau tourism board counts 64 after paving. Both accounts stay on this page.",
+      "license": "Creative Commons Attribution-ShareAlike 3.0. This copy is scaled to 960 pixels wide. License: https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Queen%27s_staircase,_Nassau,_Bahamas.jpg",
+      "width": 960,
+      "height": 1406
+    }
+  ],
+  "narrationScript": "This is a Beta research briefing for the Carnival Legend sailing from Tampa, December 13 to December 19, 2026. The plan is a tight budget that favors free fun. The numbers are an example, not a booked invoice.\n\nThe ship leaves Tampa Terminal 3, 815 Channelside Drive, at 3:30 in the afternoon on Sunday. Be aboard 60 minutes before sailing, which is 2:30.\n\nMonday is a sea day. Saturday the ship is due back in Tampa at 8 in the morning.\n\nTuesday and Wednesday are not settled on this page. Sail From Tampa lists RelaxAway, Half Moon Cay on December 15, and Celebration Key on Grand Bahama on December 16. CruiseDen swaps those two islands. Nassau on Thursday, December 17, matches in both listings. Confirm the order in the Carnival Hub app.\n\nRelaxAway is the free beach day. The ship docks at a new pier. Bring a towel from the ship. Lunch at the beach grills is included. The drink package does not work on the island.\n\nCelebration Key can stay cheap if you stop after the one included Island Eats meal. The island is cashless. Leave cash on the ship and set a Sail and Sign spending cap. Bought drinks, including water and soda, are charged. The island add-on in The Carnival Cruise Blog is an 18 percent service charge plus 10 percent Bahamian VAT. That is not the ship rate. On the ship, the service charge is about 20 percent.\n\nThe Suncastle racing slides may carry a small fee per ride. Sources do not agree. Check the island or the Carnival Hub app.\n\nIn Nassau, Junkanoo Beach is a walk west. The Queen's Staircase is a walk uphill. Fort Fincastle is closed for restoration, so look from outside. The number 10 jitney toward Cable Beach is about a dollar fifty, cash only, exact change, and it passes the Arawak Cay Fish Fry. There is no Uber. Agree on the taxi price first.\n\nThe U.S. State Department advisory is Level 2, exercise increased caution, renewed July 28, 2026. Stay in the tourist core. Avoid the area called Over the Hill, south of Shirley Street. Do not swim alone. Use licensed jet ski and boat operators only.\n\nGratuities are 17 dollars per person per night in a standard stateroom, 102 dollars for six nights, billed to Sail and Sign. A disciplined port total in this plan is 0 to 40 dollars. Skip the drink package. Parking in the example is about 48 dollars for seven days at 717 Parking, versus about 126 dollars for six nights in the port garage.\n\nAll aboard is usually 30 minutes before departure. This plan says to be back at the pier one hour before that all-aboard call. Another note says 60 minutes before departure. Those cushions are different. Take the earlier one, and read the posted call in the Carnival Hub app.",
+  "sources": [
+    {
+      "label": "Sail From Tampa. 6 Night The Bahamas on Carnival Legend, December 13, 2026.",
+      "url": "https://sailfromtampa.com/sailings/2026-12-13-carnival-legend/",
+      "note": "Terminal 3, 815 Channelside Drive. Departs Sunday December 13 at 3:30 PM. Returns Saturday December 19 at 8:00 AM. Lists RelaxAway 9:00 AM to 5:00 PM on December 15, Celebration Key 8:00 AM to 4:00 PM on December 16, and Nassau 8:00 AM to 4:00 PM on December 17. Says the itinerary source is Carnival."
+    },
+    {
+      "label": "CruiseDen. Carnival Legend, December 13, 2026.",
+      "url": "https://cruiseden.com/sailings/CCL-21538",
+      "note": "Swaps the private-island days: Celebration Key on December 15 and RelaxAway, Half Moon Cay on December 16. Nassau stays on December 17. Tampa departs December 13 and returns December 19."
+    },
+    {
+      "label": "Travel Weekly cruise listing for this Carnival Legend sailing.",
+      "note": "Named in the source packet as the other listing that swaps December 15 and December 16. This page did not reload that listing, so the URL is omitted. CruiseDen is the swap that was opened here."
+    },
+    {
+      "label": "Port Tampa Bay. Terminal guide.",
+      "url": "https://www.porttb.com/cruise/terminal-guide/",
+      "note": "Cruise Terminal 3 is 815 Channelside Drive, Tampa, Florida 33602. The parking garage is across the street from that terminal."
+    },
+    {
+      "label": "OpenStreetMap, via Nominatim. Port Tampa Bay Cruise Terminal 3.",
+      "url": "https://www.openstreetmap.org/?mlat=27.9455&mlon=-82.4442#map=17/27.9455/-82.4442",
+      "note": "Places 815 Channelside Drive at about 27.9455, -82.4442. The pin on this page uses that address point."
+    },
+    {
+      "label": "Embark Day. Port Tampa Bay Cruise Terminal 3, parking checked October 2026.",
+      "url": "https://embarkday.com/tampa/terminals/cruise-terminal-3",
+      "note": "Address 815 Channelside Drive. Garage at 810 Channelside Drive: $19 a night plus an $11.99 fee. 717 Parking Channelside Lot: $48.23 for 7 days, fees included. The garage comparison line on that page is $144.99 for 7 days before fees, which is a different stay length than the $126 figure."
+    },
+    {
+      "label": "National Weather Service, Tampa December climate normals.",
+      "url": "https://www.weather.gov/media/tbw/climate/tpadecnormrec.pdf",
+      "note": "1991 to 2020 daily normals. December 13 to 18: high 74 F, low 56 F. December 19: high 73 F, low 56 F. December monthly normals: high 73.9 F, low 55.9 F, precipitation 2.56 inches."
+    },
+    {
+      "label": "Carnival. Gratuities on Carnival.",
+      "url": "https://www.carnival.com/help/gratuities-on-carnival",
+      "note": "Standard staterooms $17 a day. Suites $19. Added to Sail and Sign unless prepaid. A 20% service charge on beverages, specialty dining, and other for-pay food. Embark drink rule: one sealed 750 ml bottle of wine or champagne per adult 21 or older, and up to 12 sealed non-alcoholic cans or cartons. Liquor and beer in luggage are confiscated. Fortified wine over 15% alcohol is not part of the wine exception."
+    },
+    {
+      "label": "Cruise Critic. Carnival increases gratuities and drink package rates.",
+      "url": "https://www.cruisecritic.com/news/carnival-increases-gratuities-drink-package-rates",
+      "note": "The $17 standard-stateroom gratuity, up from $16, effective April 2, 2026. A 20% service charge still applies."
+    },
+    {
+      "label": "Cruise Radio, September 18, 2026. What is free and what costs extra at RelaxAway, Half Moon Cay.",
+      "url": "https://cruiseradio.net/relaxaway-half-moon-cay-guide/",
+      "note": "1,005-foot pier on the north side. Carnival guests dock and walk ashore. Included lunch at Orchid Beach Grill and Hibiscus Beach Grill, with the buffet items named on this page. Free lemonade, tea, and water at the food pavilions. Lockers $11.99. Bring a ship towel. The Cheers package does not work on the island."
+    },
+    {
+      "label": "The Points Guy. RelaxAway, Half Moon Cay.",
+      "url": "https://thepointsguy.com/cruise/relaxaway-half-moon-cay-private-island",
+      "note": "Describes the new dock, the first on the island, large enough for two Carnival ships, and a walk off the ship to the Arrival Plaza and the tram."
+    },
+    {
+      "label": "Carnival news release, June 1, 2026. RelaxAway, Half Moon Cay expansion.",
+      "url": "https://www.carnival-news.com/2026/06/01/carnival-cruise-line-celebrates-expansion-of-relaxaway-half-moon-cay",
+      "note": "New pier, tram, and the Orchid and Hibiscus beach grills among the included food venues."
+    },
+    {
+      "label": "Carnival shore excursion. All-day snorkel gear rental at RelaxAway.",
+      "url": "https://www.carnival.com/shore-excursions/relaxaway/all-day-snorkel-gear-rental-447029",
+      "note": "Starting at $21.99 a person. Mask, snorkel, fins, and vest."
+    },
+    {
+      "label": "Eat Sleep Cruise. RelaxAway, Half Moon Cay, updated June 4, 2026.",
+      "url": "https://eatsleepcruise.com/everything-you-need-to-know-about-half-moon-cay-bahamas/",
+      "note": "Price list used here for the float mat at $21.99, the historic nature walk and island bike tour at $26.99 each, daybeds from $149.99, and cabanas from $799.99."
+    },
+    {
+      "label": "The Carnival Cruise Blog. Celebration Key guide.",
+      "url": "https://www.thecarnivalcruiseblog.com/blog/celebration-key-guide",
+      "note": "Island purchases include an 18% service charge and 10% Bahamian VAT. Fully cashless. Drink packages do not apply. One Island Eats meal: entree, fries, and a cookie. Bought drinks include water and soda. Refill stations are also described. Suncastle slides are described with a per-ride charge. Chairs, umbrellas, trams, and the two lagoon zones are the free day."
+    },
+    {
+      "label": "Carnival. Celebration Key destination guide PDF.",
+      "url": "https://www.carnival.com/-/media/Images/celebration-key/destination-guide/celebration-key-destination-guide.pdf",
+      "note": "Carnival's own destination guide file. Port summaries cite it for the free beach, lagoons, and included meal. This page does not retype the PDF line by line."
+    },
+    {
+      "label": "Bahamas cruise guide. Celebration Key free and paid split.",
+      "url": "https://bahamascruisefrommiami.com/celebration-key/",
+      "note": "Lists the mile-long beach, freshwater lagoons, sports courts, Paradise Plaza live music, and a Junkanoo parade as free, and lists the Suncastle tower as free while the Carnival Cruise Blog describes a slide fee. Pearl Cove access $59.99, open bar $109.99. Those two slide accounts conflict, so this page does not print a settled slide price."
+    },
+    {
+      "label": "Nassau Paradise Island. The Queen's Staircase.",
+      "url": "https://www.nassauparadiseisland.com/experiences/the-queens-staircase",
+      "note": "Also known as the 66 Steps. Says paving has reduced the number of steps to 64. Renovation unveiled in April 2024."
+    },
+    {
+      "label": "Cruiser Hacks. Queen's Staircase and Fort Fincastle from the cruise port. Updated November 18, 2026.",
+      "url": "https://cruiserhacks.com/ports/bahamas/nassau/queens-staircase-fort-fincastle/",
+      "note": "Keeps both step counts: 64 on the tourism board, and 65 still described as visible. Fort Fincastle and the Water Tower closed for restoration at the mid-November 2026 check, with the view from outside."
+    },
+    {
+      "label": "Real Journey Travels. How to use the local jitney bus in Nassau. Updated September 14, 2026.",
+      "url": "https://www.realjourneytravels.com/how-to-use-the-local-jitney-bus-in-nassau/",
+      "note": "Route number 10 from downtown and the cruise port toward Cable Beach, passing Arawak Cay Fish Fry. About $1.50, cash only, exact change. About 6:00 AM to 6:30 PM. Catch it near Frederick Street and Bay Street. No Uber."
+    },
+    {
+      "label": "The Bahamas, Road Traffic (Taxi-Cab) (New Providence Zone Fares) (Amendment) Regulations, 2024. S.I. No. 14 of 2024.",
+      "url": "https://laws.bahamas.gov.bs/cms/images/LEGISLATION/AMENDING/2024/2024-0014S/2024-0014S.pdf",
+      "note": "Zone table used here for the Prince George Dock row: $12 to downtown and $20 to Cable Beach. The trip notes' about $9 short hop does not match that table. Agree the price first."
+    },
+    {
+      "label": "U.S. Department of State. The Bahamas travel advisory, July 28, 2026.",
+      "url": "https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Bahamas.html",
+      "note": "Level 2, exercise increased caution, renewed July 28, 2026, with no change to the level. Crime, including in Nassau. Stay alert in the Over the Hill area south of Shirley Street. Never swim alone. Use licensed boat and jet ski operators. The advisory index lists the same level and date."
+    },
+    {
+      "label": "OpenStreetMap place locations used for the Nassau sketch.",
+      "url": "https://www.openstreetmap.org/search?query=Prince%20George%20Wharf%20Nassau",
+      "note": "Relative order only: Junkanoo Beach and Arawak Cay west of Prince George Wharf, Cable Beach farther west, the Queen's Staircase inland to the south. The drawing is not to scale and is not a survey."
+    },
+    {
+      "label": "Wikimedia Commons. Queen's staircase, Nassau, Bahamas.",
+      "url": "https://commons.wikimedia.org/wiki/File:Queen%27s_staircase,_Nassau,_Bahamas.jpg",
+      "note": "Photograph by Jerrye and Roy Klotz, MD, January 2, 2009. Creative Commons Attribution-ShareAlike 3.0. The file description counts 65 steps, which disagrees with the tourism board's 64."
+    }
+  ],
+  "sections": [
+    {
+      "heading": "The week, and the day that swaps",
+      "body": "Carnival Legend sails from Tampa Terminal 3, 815 Channelside Drive, on Sunday, December 13, 2026, at 3:30 PM, and is due back Saturday, December 19, at 8:00 AM. Be aboard 60 minutes before sailing. For a 3:30 PM departure, that is 2:30 PM. The plan is a tight budget that favors free fun.\n\nSail From Tampa, citing Carnival, lists Monday and Friday at sea, RelaxAway at Half Moon Cay on Tuesday from 9:00 AM to 5:00 PM, Celebration Key on Grand Bahama on Wednesday from 8:00 AM to 4:00 PM, and Nassau on Thursday from 8:00 AM to 4:00 PM. CruiseDen lists Celebration Key on December 15 and RelaxAway on December 16. The source notes for this page also name Travel Weekly for that swap. Nassau on December 17 is the same in the listings opened here. Confirm the order in the Carnival Hub app. The strip above marks Tuesday and Wednesday so the conflict is hard to miss.\n\nAll aboard is usually 30 minutes before departure. This plan says to be back at the pier one hour before that all-aboard call. Another note in the same packet says to be back 60 minutes before departure. Those cushions are not the same. Take the earlier one, and read the posted all-aboard time in the Carnival Hub app."
+    },
+    {
+      "heading": "What the money labels mean",
+      "body": "Gratuities for a standard stateroom are $17 per person per night, up from $16 on April 2, 2026. Six nights is $102, billed to Sail and Sign unless they were prepaid. Suites are $19 on Carnival's page.\n\nKeep the two service charges apart. On the ship, the rate is about 20% on drinks, drink packages, specialty dining, and spa. Carnival's gratuity page states that 20% on beverages, specialty dining, and other for-pay food, and reporting dates the rise from 18% to 20% in December 2025. At Celebration Key, The Carnival Cruise Blog reports a different add-on: 18% service charge plus 10% Bahamian VAT on island purchases. The 18% figure belongs to the island. The 20% figure belongs to the ship.\n\nSkip the drink package. It does not work at Celebration Key or at RelaxAway, Half Moon Cay. On the ship, the plan is free water, lemonade, and tea, plus the dining room and the buffet.\n\nThe chart is an example disciplined budget, not a booked invoice: about $102 in gratuities, $0 to $40 across all three ports, and $0 in drinks because no drink spend is priced. The parking contrast sits on the Value Travel Bot strip, not in that chart."
+    },
+    {
+      "heading": "RelaxAway, the free beach day",
+      "body": "If Tuesday holds, this is the best $0 day. The ship docks at the new pier and you walk ashore. Cruise Radio describes a 1,005-foot pier on the north side of the island. The Points Guy describes that dock as the first on the island and large enough for two Carnival ships. Carnival's June 1, 2026 release describes the same new pier and the new tram.\n\nIncluded: the beach, loungers, umbrellas, the tram, and lunch at Orchid Beach Grill or Hibiscus Beach Grill. The meal window in these notes is about 11:30 to 1:30. Cruise Radio's buffet list covers burgers, chicken, pulled pork, a nacho bar, and desserts, plus water, lemonade, and tea at the food pavilions.\n\nNot included: sodas, alcohol, lockers at $11.99, snorkel gear starting at $21.99 on Carnival's excursion page, and, on the Eat Sleep Cruise list, a float mat at $21.99, a nature walk or bike tour at $26.99, daybeds from $149.99, and cabanas from $799.99. Towels are not handed out on the island. Bring a ship towel and return it. These notes say an unreturned towel is charged.\n\nThe drink package does not work ashore."
+    },
+    {
+      "heading": "Celebration Key, free if you stop",
+      "body": "Celebration Key is on Grand Bahama, and it is cashless. No cash. Leave the small bills on the ship and set a Sail and Sign spending cap before you get off. Those bills are for Nassau: the jitney and the Fish Fry.\n\nThe free shape of the day is a mile-long beach, two lagoons, chairs, umbrellas, sports courts, trams, live music at Paradise Plaza, and one Island Eats walk-up meal: an entree, fries, and a cookie. A guide that says it is following Carnival's destination guide also lists a Junkanoo parade at Paradise Plaza. The Carnival Cruise Blog describes Starfish Lagoon, Calypso Lagoon, and a large freshwater lagoon, and it says water refill stations are on the island.\n\nAfter that one meal, purchases are charged, including water and soda. The blog's island add-on is 18% plus 10% Bahamian VAT. That line is only for Celebration Key.\n\nThe Suncastle racing slides may carry a small fee per ride. Sources conflict: one guide lists the tower as free, and The Carnival Cruise Blog describes a per-ride charge. Confirm on the island or in the Carnival Hub app. This page does not print a settled slide price.\n\nPearl Cove is the paid adults area. Guides that cite Carnival's prices list $59.99 to enter and $109.99 with open bar. Skip it, and skip cabanas, on this budget. The drink package does not work on the island."
+    },
+    {
+      "heading": "Nassau on foot, then the number 10",
+      "body": "Nassau is the open port. The sketch is a direction aid: west along the water to Junkanoo Beach, uphill inland to the Queen's Staircase, and the number 10 jitney west toward Cable Beach, passing Arawak Cay Fish Fry. It is not a surveyed map.\n\nJunkanoo Beach is about a 10 to 13 minute walk west. It is crowded on cruise days. A chair, if you rent one, is about $15 in these notes. The Queen's Staircase is about a 13 minute uphill walk. The Nassau tourism board says paving reduced the old 66 Steps to 64. Cruiser Hacks also records 65 steps still described as visible. Both counts stay. Fort Fincastle at the top was still closed for restoration in a November 18, 2026 check, so the plan is the view from outside. Look again before the sail in case that changes.\n\nThe number 10 jitney is about $1.50, cash only, exact change, about 6:00 AM to 6:30 PM, and it passes the Fish Fry on the way to Cable Beach. Catch it near Frederick Street and Bay Street, a short walk from the wharf. There is no Uber.\n\nTaxis use fixed zone fares. Agree the price before the cab moves. The 2024 New Providence zone schedule lists $12 from Prince George Dock to downtown and $20 to Cable Beach. These notes also say about $9 per cab for a short hop. Those numbers do not match, so do not treat $9 as the current table.\n\nSkip Atlantis and ship tours.\n\nSafety: the U.S. State Department renewed a Level 2 advisory on July 28, 2026, exercise increased caution, mainly for crime. Most of that crime note is about Nassau and Freeport. Stay in the tourist core. Avoid the Over the Hill area south of Shirley Street. Never swim alone. Use only licensed jet ski and boat operators."
+    },
+    {
+      "heading": "Tampa: drive, weather, parking, debark",
+      "body": "The drive from Tallahassee to Tampa is about 4 hours, I-10 east to I-75 south. These notes say there are no tolls if you skip the Selmon Expressway. Leave about 7:00 AM to be at the terminal about 11:30 AM, ahead of the 2:30 PM all-aboard.\n\nNWS daily normals for Tampa on December 13 to 18 are a high of 74 F and a low of 56 F. December 19 is 73 F and 56 F. The December monthly normals are 73.9 F and 55.9 F. A sailaway in the mid-50s can feel chilly. Bring a light layer. This is the climate normal, not a forecast. Check the forecast closer to the sail.\n\nParking, labeled by length of stay so the two deals are not fake twins. Embark Day, checked October 2026, lists 717 Parking Channelside Lot at $48.23 for 7 days, fees included. That is the about $48 bar. The port garage at 810 Channelside Drive is $19 a night plus an $11.99 fee. Six nights at $19 is $114, plus $11.99, which is $125.99, the about $126 bar. Embark Day also lists that garage at $144.99 for 7 days before fees. Same garage, different length, and the fee is extra on that 7-day line. Harbor Lot is listed in these notes at about $6 a day as another cheaper off-site option. The trip notes say to prepay the garage a day ahead and that the gate does not take debit cards.\n\nDebark on December 19 is a self-assist walk-off. Carry your own bags. Eat breakfast on the ship first. These notes put you in the car about 9:00 AM and home about 1:30 PM."
+    },
+    {
+      "heading": "What to pack",
+      "body": "Embark bag: passport card and driver's license, phone, charger, power bank, medications, swimwear, sandals, and a light layer. Do not put document numbers or photos of those IDs on a page like this.\n\nCabin: a non-surge USB cube, because these notes say surge protectors are banned, plus magnetic hooks and a refillable bottle.\n\nDrinks you may carry on, from Carnival's rule: one sealed 750 ml bottle of wine or champagne per adult 21 or older, and up to 12 sealed non-alcoholic cans or cartons per person. Liquor and beer in luggage are confiscated. Fortified wine over 15% alcohol is outside the wine exception. A corkage fee applies if the dining room opens the bottle. This plan does not need that.\n\nPort bag: Sail and Sign card on a lanyard, ID, reef-safe sunscreen, hat, sunglasses, water bottle, a breakfast snack, a dry pouch, the ship towel, and the phone set to ship time. Small U.S. bills are for Nassau only. On Celebration Key day, leave the cash on the ship.\n\nBack aboard: use the earlier of the two cushions above, then follow the time posted in the Carnival Hub app."
+    }
+  ]
+}
