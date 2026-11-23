@@ -74,16 +74,140 @@ export const briefSchema = z.object({
       title: z.string().min(1),
       note: z.string().min(1).optional(),
       unit: z.string().min(1).optional(),
+      rowHeading: z.string().min(1).optional(),
       points: z
         .array(
           z.object({
             label: z.string().min(1),
             value: z.number(),
+            valueLabel: z.string().min(1).optional(),
             note: z.string().min(1).optional(),
           }),
         )
         .min(1),
     })
+    .optional(),
+  leadVisuals: z.boolean().optional(),
+  dayStrip: z
+    .object({
+      kicker: z.string().min(1).optional(),
+      title: z.string().min(1).optional(),
+      note: z.string().min(1).optional(),
+      days: z
+        .array(
+          z.object({
+            weekday: z.string().min(1),
+            date: z.string().min(1),
+            title: z.string().min(1),
+            detail: z.string().min(1),
+            tone: z.enum(["home", "sea", "port"]).optional(),
+            flag: z.string().min(1).optional(),
+          }),
+        )
+        .min(1),
+    })
+    .optional(),
+  budgetStrip: z
+    .object({
+      kicker: z.string().min(1).optional(),
+      title: z.string().min(1),
+      note: z.string().min(1).optional(),
+      items: z
+        .array(
+          z.object({
+            label: z.string().min(1),
+            value: z.string().min(1),
+            detail: z.string().min(1).optional(),
+            bars: z
+              .array(
+                z.object({
+                  label: z.string().min(1),
+                  value: z.number(),
+                  display: z.string().min(1).optional(),
+                }),
+              )
+              .min(2)
+              .optional(),
+          }),
+        )
+        .min(1),
+      rates: z
+        .array(
+          z.object({
+            where: z.string().min(1),
+            figure: z.string().min(1),
+            detail: z.string().min(1),
+          }),
+        )
+        .optional(),
+    })
+    .optional(),
+  portTables: z
+    .array(
+      z.object({
+        title: z.string().min(1),
+        note: z.string().min(1).optional(),
+        free: z
+          .array(
+            z.object({
+              item: z.string().min(1),
+              detail: z.string().min(1).optional(),
+            }),
+          )
+          .min(1),
+        paid: z
+          .array(
+            z.object({
+              item: z.string().min(1),
+              detail: z.string().min(1).optional(),
+            }),
+          )
+          .min(1),
+      }),
+    )
+    .optional(),
+  routeSketch: z
+    .object({
+      kicker: z.string().min(1).optional(),
+      title: z.string().min(1),
+      note: z.string().min(1),
+      waterBand: z.boolean().optional(),
+      stops: z
+        .array(
+          z.object({
+            id: z.string().min(1),
+            label: z.string().min(1),
+            detail: z.string().min(1),
+            x: z.number().gte(0).lte(100),
+            y: z.number().gte(0).lte(100),
+          }),
+        )
+        .min(2),
+      links: z
+        .array(
+          z.object({
+            from: z.string().min(1),
+            to: z.string().min(1),
+            label: z.string().min(1),
+            kind: z.enum(["walk", "ride"]).optional(),
+          }),
+        )
+        .default([]),
+    })
+    .optional(),
+  figures: z
+    .array(
+      z.object({
+        src: z.string().min(1),
+        alt: z.string().min(1),
+        caption: z.string().min(1),
+        credit: z.string().min(1),
+        license: z.string().min(1),
+        sourceUrl: httpUrl.optional(),
+        width: z.number().int().positive().optional(),
+        height: z.number().int().positive().optional(),
+      }),
+    )
     .optional(),
 });
 
@@ -106,4 +230,10 @@ export const briefFieldNames = [
   "sources",
   "sections",
   "chartData",
+  "leadVisuals",
+  "dayStrip",
+  "budgetStrip",
+  "portTables",
+  "routeSketch",
+  "figures",
 ] as const;

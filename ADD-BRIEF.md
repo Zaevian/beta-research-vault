@@ -45,7 +45,13 @@ Optional. The page hides a block when the field is missing:
 | `ghostTownScore` | Integer 0 to 100. Higher means more ghost. Always explain it in `ghostTownNote`. |
 | `ghostTownLabel` | Short status under the meter, such as `Stalled alley`. |
 | `narrationScript` | Plain text meant to be read aloud. Short sentences. Expand abbreviations a voice might mangle. |
-| `chartData` | Bar chart plus a data table. Say what the numbers count. |
+| `chartData` | Bar chart plus a data table. Say what the numbers count. Optional `rowHeading` replaces the default column label `Year`. Optional `points[].valueLabel` replaces the raw number in the label and the table. Bar height still uses `value`. |
+| `leadVisuals` | When true, the chart renders with the other visuals, above the prose. When omitted, the chart stays after the timeline. |
+| `dayStrip` | Horizontal day cards. Optional `note` is the conflict banner. Optional `days[].tone` is `home`, `sea`, or `port`. Optional `days[].flag` is a small badge. |
+| `budgetStrip` | Prominent summary cards. Optional `items[].bars` draws a comparison inside a card. Optional `rates` is a second table for figures that must not be mixed. |
+| `portTables` | Free and paid tables. Each table has `title`, optional `note`, `free`, and `paid`. |
+| `routeSketch` | Numbered schematic. `x` and `y` are 0 to 100, with 0 at the top. `links[].kind` is `walk` or `ride`. Optional `waterBand` draws a north water band. Say in `note` that it is not a surveyed map. |
+| `figures` | Photos with on-page credit. Use only a public-domain, Creative Commons, or clearly reusable press image. `credit` and `license` are required. |
 | `sources` | `{ "label", "url", "note" }`. `url` may be omitted if you cannot verify it. |
 
 `owners[].kind` is optional:

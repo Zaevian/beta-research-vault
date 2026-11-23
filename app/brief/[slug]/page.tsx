@@ -1,13 +1,18 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { BudgetStrip } from "@/components/budget-strip";
+import { DayStrip } from "@/components/day-strip";
+import { FigureRow } from "@/components/figure-row";
 import { GhostMeter } from "@/components/ghost-meter";
 import { JsonLd } from "@/components/json-ld";
 import { LocationCallout } from "@/components/location-callout";
 import { Narration } from "@/components/narration";
 import { OwnersBoard } from "@/components/owners-board";
+import { PortTables } from "@/components/port-tables";
 import { Reveal } from "@/components/reveal";
 import { RichText } from "@/components/rich-text";
+import { RouteSketch } from "@/components/route-sketch";
 import { Timeline } from "@/components/timeline";
 import { VitalityChart } from "@/components/vitality-chart";
 import { getAllBriefs, getBrief } from "@/lib/briefs";
@@ -100,13 +105,20 @@ export default async function BriefPage({ params }: BriefPageProps) {
             ))}
           </div>
           <p className="mt-5 max-w-3xl text-sm leading-6 text-muted">
-            Research briefing. Figures are attributed to the sources below. Where ownership accounts conflict, both stay on the page.
+            Research briefing. Figures are attributed to the sources below. Where sources conflict, both accounts stay on the page.
           </p>
         </header>
       </Reveal>
 
-      <div className="mt-8 grid gap-8 lg:grid-cols-[minmax(0,1fr)_340px]">
-        <aside className="lg:col-start-2 lg:row-start-1">
+      {brief.dayStrip || brief.budgetStrip ? (
+        <div className="mt-8 space-y-8">
+          {brief.dayStrip ? <DayStrip strip={brief.dayStrip} /> : null}
+          {brief.budgetStrip ? <BudgetStrip strip={brief.budgetStrip} /> : null}
+        </div>
+      ) : null}
+
+      <div className="mt-8 grid min-w-0 gap-8 lg:grid-cols-[minmax(0,1fr)_340px]">
+        <aside className="min-w-0 lg:col-start-2 lg:row-start-1">
           <div className="space-y-6 lg:sticky lg:top-24">
             {brief.location ? <LocationCallout location={brief.location} accent={brief.accent} /> : null}
             {typeof brief.ghostTownScore === "number" ? (
@@ -114,7 +126,11 @@ export default async function BriefPage({ params }: BriefPageProps) {
             ) : null}
           </div>
         </aside>
-        <div className="space-y-12 lg:col-start-1 lg:row-start-1">
+        <div className="min-w-0 space-y-12 lg:col-start-1 lg:row-start-1">
+          {brief.leadVisuals && brief.chartData ? <VitalityChart chart={brief.chartData} /> : null}
+          {brief.portTables && brief.portTables.length > 0 ? <PortTables tables={brief.portTables} /> : null}
+          {brief.routeSketch ? <RouteSketch sketch={brief.routeSketch} /> : null}
+          {brief.figures && brief.figures.length > 0 ? <FigureRow figures={brief.figures} /> : null}
           {brief.sections.map((section) => (
             <section key={section.heading} aria-labelledby={headingAnchor(section.heading)}>
               <h2 id={headingAnchor(section.heading)} className="text-2xl font-semibold text-ink">
@@ -126,7 +142,7 @@ export default async function BriefPage({ params }: BriefPageProps) {
             </section>
           ))}
           {brief.timeline.length > 0 ? <Timeline items={brief.timeline} /> : null}
-          {brief.chartData ? <VitalityChart chart={brief.chartData} /> : null}
+          {brief.chartData && !brief.leadVisuals ? <VitalityChart chart={brief.chartData} /> : null}
           {brief.narrationScript ? <Narration script={brief.narrationScript} /> : null}
           {brief.sources.length > 0 ? (
             <section aria-labelledby="sources-heading">
@@ -135,7 +151,7 @@ export default async function BriefPage({ params }: BriefPageProps) {
               </h2>
               <ol className="mt-4 space-y-4">
                 {brief.sources.map((source, index) => (
-                  <li key={`${source.label}-${index}`} className="rounded-2xl border border-white/10 bg-panel/60 p-4">
+                  <li key={`${source.label}-${index}`} className="break-words rounded-2xl border border-white/10 bg-panel/60 p-4">
                     <p className="text-sm font-medium text-ink">
                       {source.url ? (
                         <a href={source.url} rel="noreferrer" className="underline decoration-cyan/50 underline-offset-4">
